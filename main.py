@@ -5,16 +5,21 @@ from fastapi.middleware.cors import CORSMiddleware
 import base64
 import os
 from typing import Optional
+from dotenv import load_dotenv
+
 # # Set the path to your service account key
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "lloyds-hack-grp-50-7c44e0c51e30.json"
+
+# Load environment variables from .env file
+load_dotenv()
 
 # # Initialize a BigQuery client
 client = bigquery.Client()
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
 
 # Path to your service account key file
-service_account_path = 'lloyds-hack-grp-50-519054f38a1d.json'
+firestore_path = os.getenv('FIRESTORE_SERVICE_FILE')
 # Initialize Firestore client
-db = firestore.Client.from_service_account_json(service_account_path)  
+db = firestore.Client.from_service_account_json(firestore_path)  
 
 app = FastAPI()
 
@@ -46,7 +51,7 @@ def login(userData:UserData):
     return login_user(getattr(userData,'email'),getattr(userData,'password'))
 
 def login_user(email,password):
-    user_doc = db.collection('users').document('email')
+    user_doc = db.collection('users').document(email)
     doc = user_doc.get()
 
     if not doc.exists:
