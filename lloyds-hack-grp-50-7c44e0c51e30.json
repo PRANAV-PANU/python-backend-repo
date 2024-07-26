@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "lloyds-hack-grp-50",
+  "private_key_id": "7c44e0c51e3040ab219f321fbc232d85e9fe6706",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCb0YYkdl05W+p0\nPMap70R9tshLTxYuNGo+KLjwdTVaoyqsyC5iqv1+BLJ2t2Rj9k+0DmvQPc0h7pYG\nLuQ3GvDsRMSldNIZwjg/oTQCbyxP8NmGN6uXFbj378QRmHFRUoHlnetjuQHV5gCG\nJQ4GdqvAMoxRkosRl4JWUIN/3eOOZymFYc1SusQLAtBU7GyTuWnlgB27rnY6EtqI\nC0a453zEQfNRl1Yearf+BJEacMEPOBRolh1wuJAatOMQBpv5uPGfPh8wSuAhd0Jc\n5jYgQIT/SNmmjciVPGoxzBpeip0TDM9A4AvcQDV6hkdT5a9hOnS7+vKoMptOL4s0\ntHMMGf+nAgMBAAECggEAENe5FD/nG8gfs6jOIJhIYv5a8CkAUMZBpa5pLzS8K6vv\ndPW+bdPlyrVfRQ3VwChjvSbB6KSFg+FyPgDbkklLOX7Fcs0J2NbxlY8rPAggVhPG\nr4dc+NvUPpigLPa5aPzuJY/IXeMlm6Vc8SMYPQKe1gugt0CL377sy7+wNyYY7s90\ns6ieS2okRfhGi1dBG4hetJLOksDZWh1dYiFLz9yonyGKepwPQqoXx49Y5XDQyaiX\nUKKGygLnFtopSaqm4lihyjG+fl4mUshHOgHzTa+8KwdTHiGvpuixBvS8I4JBa9eS\nXk/gglonanMaQFZ5AX3tf700IiR8CHIALSkmrAWV4QKBgQDJa+EhOYhhmtEH9k8D\nUqv6NiC0+bMrSs8yBhDaSp29fEuMx6maPXtO1Mmq15+GRoROoPe0CoQXSipSM4qg\njbR6dBaHoHxUdxrKpAyt+5mZOk4aUIso5rBSHZHKtEVGPF9Ar1BNz8YIiFEAl0VT\nP8ChqKQ3xsFH19bsPSvRvVQ4RQKBgQDGCkbtACx4HezQMHAmg+0e2M3giMKf99bU\nUzD+YrT8lBASjJVYeT4/U3h2NJblHs4LsrykylFXpiSB+o2Y8lKpqMlR4lJ+6Uqd\ngwjArP+bu5ocFczuS85yAKZS1iC78tRcfGA6SDmkUtJgxrgEiLlRpF7UWGLK0/EZ\nk5nWdcrE+wKBgQDFIk6PBA4U6T8YedtPN0SWeQ990L2o62jqXsFzxH+qCtKukGPQ\nT8g1mVFfYfYBp1aq1iRZE8nAOZg+J6/P/6DaEHBUgZ/t0zxnhDPcvFjSfRwf6SCq\nAU4ksEgWimUans/jMTJ5VZdOlowg9eyl08mm7rT62g4lUHxLbntKpfCduQKBgCPu\nq23HEUp+C4C+uSqT10s4hSpPRhjmTAlcStBtMm99oejrrxFNdljhGUNBSXuq+jGv\nLYEs4FNp5sfaoSR2Gz+DS3va96LlS0+G/eiPuxUTleOwpO07vep7abIv/eJ8LcHW\nI1OP1T2WdWtvwuW3tQA2NaqLmuk4SU+ds1TxLGhPAoGBAIangrTx6DlAhlYkE6c3\nKqXydIAWqz79nTGLxqq9z+eh1nDXW/3JYzNImQaiK0UcoLSIPICx1oq9RZpPJlzE\nuLCiUTQkHmfnj5amnjrKYtWAI5D4UUprxjxzGRk9W571WsG5ULM3iT9Bley5vJ5I\newiH+iMUnPWfm0smp/e+xkX/\n-----END PRIVATE KEY-----\n",
+  "client_email": "big-query-client@lloyds-hack-grp-50.iam.gserviceaccount.com",
+  "client_id": "114497660435024385259",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/big-query-client%40lloyds-hack-grp-50.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
